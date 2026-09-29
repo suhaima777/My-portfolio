@@ -1,0 +1,186 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 0 40px 0 40px;
+    background-color:white;
+    position: sticky ;
+    top:0;
+    z-index: 1000;
+   
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    color: maroon;
+}
+.left-nav{
+    display: flex;
+   gap: 30px;
+   color:rgba(0, 0, 0, 0.518); 
+}
+.homepage{
+    min-height: calc(100vh - 70px);
+}
+.home-content h1{
+    color:  maroon;
+}
+.home-p1{
+    color: black;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    margin-right: 50px;
+    font-size:x-large;
+    color: black;
+    
+}
+.aboutpage{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+}
+.about-left{
+    width: 45%;
+
+}
+.about-left h2{
+    font-size: 40px;
+    margin-left: 40px;
+    color:maroon;
+}
+.about-left p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-left: 40px;
+    color: black;
+}
+.about-right{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.about-right img{
+width: 400px;
+height:400px;
+object-fit: cover;
+object-position: center top;
+border-radius: 50%;
+
+}
+body{
+    background-color:rgb(255, 255, 255);
+}
+.skills-page{
+    background-color: white;
+    min-height: 100vh;
+    padding: 50px 10%;
+    box-sizing: border-box;
+   
+    
+}
+.skills-page h2{
+    color: maroon;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.skills-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.skill-box{
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.skill-box h3{
+    color: maroon;
+    font-size: xx-large;
+}
+.skill-box p{
+    color: black;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.contact-heading{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 28px;
+ }
+
+.contact-container{
+    max-width:400px ;
+    margin:0 auto 50px auto;
+    padding: 20px;
+    font-family: Arial,sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+   
+    
+
+}
+.contact-page h2{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+input,textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+textarea{
+    height: 100px;
+    resize: vertical;
+}
+button{
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}
+#contact{
+    scroll-margin-top: 70px;
+}
